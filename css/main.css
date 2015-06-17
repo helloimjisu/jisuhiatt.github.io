@@ -1,0 +1,231 @@
+
+*{
+	box-sizing: border-box;
+}
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*html{
+	background-color: #45cea6;
+}*/
+
+body{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.5em;
+	text-align: center;
+	color: #fff;
+    /*background: url(../img/background.jpg) center center no-repeat fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #45cea6;
+}
+
+.container{
+	position: relative;
+	width: 80%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+h1, h2, h3{
+	font-family: "Oswald", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+
+#name{
+	font-size: 40px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+
+#name span{
+	font-family: "Open Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+}
+
+#title{
+	color: #555b5b;
+}
+
+#training{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 12px;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: lowercase;
+	color: #555b5b;
+}
+
+h1.pardon {
+	margin-top: 70px;
+	font-size: 50px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	line-height: 1.3em;
+	letter-spacing: 10px;
+/*	color: #555b5b;*/
+
+}
+
+p.pardon {
+	font-style: italic;
+	font-weight: 300;
+/*	color: #555b5b;*/
+
+}
+
+
+.logo {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+
+a{
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+
+header.top_bar{
+	margin-bottom: 10%;
+}
+
+.top_bar .icon_bar{
+	display: block;
+	height: 2px;
+	margin-bottom: 4px;
+	background-color: #fff;
+}
+
+
+header nav ul{
+	display: none;
+}
+
+
+main{
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+aside h2 {
+	display: block;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	font-weight: 700;
+	color: #555b5b;
+}
+
+aside p{
+	display: block;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+
+.twitter:before, .facebook:before, .linkedin:before{
+	position: relative;
+	top: 2px;
+	color: #fff;
+}
+
+.twitter:before{
+	content: "\f099";
+	display: inline-block;
+	width: 60px;
+	font-size: 40px;
+	font-family: "FontAwesome";
+
+}
+.pinterest:before{
+	content: "\f231";
+	display: inline-block;
+	width: 60px;
+	font-size: 40px;
+	font-family: "FontAwesome";
+}
+.linkedin:before{
+	content: "\f0e1";
+	display: inline-block;
+	width: 60px;
+	top: 0;
+	font-size: 40px;
+	font-family: "FontAwesome";
+}
+
+
+footer{
+	margin-top: 50px;
+	padding: 20px;
+	font-size: 13px;
+	background-color: #555b5b;
+}
+
+#copyright{
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+
+#copyright span{
+	font-weight: 400;
+}
+
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 100%;
+	}
+
+	main, aside{
+		margin-left: 10%;
+	}
+
+	aside {
+		width: 56%;
+	}
+
+
+}
+
+@media screen and (min-width: 728px and max-width: 1024px) {
+	main, aside {
+		width: 82%
+	}
+}
+
+
+@media screen and (max-width: 728px) {
+
+	main, aside {
+		width: 80%;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
