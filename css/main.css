@@ -83,6 +83,12 @@ p.pardon {
 
 }
 
+a.blog {
+	font-style: italic;
+	font-weight: 300;
+	color: #f9dad2;
+
+}
 
 .logo {
 	display: inline-block;
